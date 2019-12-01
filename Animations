@@ -1,0 +1,90 @@
+
+void anim() {
+	int rnd = rand() % 50 + 20;
+
+	int t2 = 12;
+	//	int rnd = rand() % 70+20;
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	Sleep(t2);
+	cout << "          ;;" << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << "          ;';." << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << "          ;  ;;" << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << "          ;   ;;" << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << "          ;    ;;" << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << "          ;    ;;" << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << "          ;   ;'" << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << "          ;  ' " << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << "     ,;;;,; " << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << "     ;;;;;;" << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << "     `;;;;'" << endl;
+	Sleep(t2);
+	for (int i = 0; i < rnd; i++) {
+		cout << " ";
+	}
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << endl;
+
+}
+
+string notechange(char n) {
+	if (n == 'a') return "A";
+	else if (n == 'w') return "A Sharp";
+	else if (n == 's') return "B";
+	else if (n == 'd') return "C";
+	else if (n == 'r') return "C Sharp";
+	else if (n == 'f') return "D";
+	else if (n == 't') return "D Sharp";
+	else if (n == 'g') return "E";
+	else if (n == 'h') return "F";
+	else if (n == 'u') return "F Sharp";
+	else if (n == 'j') return "G";
+	else if (n == 'i') return "G Sharp";
+	else if (n == 'k') return "High A";
+	else if (n == 'o') return "High A Sharp";
+	else if (n == 'l') return "High B";
+	else if (n == ';') return "High C";
+}
